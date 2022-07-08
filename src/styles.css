@@ -85,9 +85,8 @@ p3 {
   bottom: 20px;
   width: 95px;
 }
-#weatherDescription{
-  font-size:15px;
-  
+#weatherDescription {
+  font-size: 15px;
 }
 
 .card-body {
@@ -112,4 +111,7 @@ p3 {
 }
 .days:hover {
   font-weight: bolder;
+}
+#linkToSource {
+  font-size: 12px;
 }
