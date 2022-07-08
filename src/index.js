@@ -13,6 +13,8 @@ function search(event) {
 //let actualTemp=document.querySelector("#tempChange");
 let form = document.querySelector("#searchingForm");
 form.addEventListener("submit", search);
+let button = document.querySelector("#button-addon2");
+button.addEventListener("submit", search);
 
 function showResponse(response) {
   console.log(response.data.main.temp);
@@ -78,7 +80,7 @@ let week = [
   "Wednesday",
   "Thursday",
   "Friday",
-  "Saturday"
+  "Saturday",
 ];
 let weekDay = week[now.getDay()];
 
